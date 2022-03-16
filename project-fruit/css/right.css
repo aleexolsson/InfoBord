@@ -4,7 +4,7 @@ body {
             "info logo";
 }
 *.graph svg {
-    transform: rotate(-180deg) translateX(50%);
+    transform: scaleX(-1) translateX(50%);
 }
 #g18, #g1016, #g1203{
     transform: rotate(360deg);
@@ -22,6 +22,9 @@ body {
 .info ul{
     border-radius: 0 2em 2em 0;
     border-left: none;
+}
+#g18, #g1016, #g1203{
+    transform: rotate(0deg);
 }
 @keyframes slide-in {
     0% {
