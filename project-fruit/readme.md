@@ -1,7 +1,7 @@
 # InfoTable CO2 footprint frontend software
 
 ## What this is
-Frontend Software for InfoBoard UF's system to display and compare CO2 footprint. This part of the system (the frontend) is what displays the data to the user in a way which easily can be interpredted and understood. As part of the repository and the frontend this folder contains the template files to make more pages/items.
+Frontend Software for InfoBord UF's system to display and compare CO2 footprint. This part of the system (the frontend) is what displays the data to the user in a way which easily can be interpredted and understood. As part of the repository and the frontend this folder contains the template files to make more pages/items.
 
 ## Installation/Updating
 
