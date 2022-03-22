@@ -15,7 +15,7 @@
                 transform: rotate(initial);
             }
             100% {
-                transform: rotate(113deg); <!-- Value can't be set until all other sites are done, the scale is to be determined from the highest value in the list-->
+                transform: rotate(49.6deg); <!-- Value is set in exakt kcal, to calculate degrees, use 0,2 * y ammount of kcal-->
             }
         }
         @keyframes rotate2 {
@@ -23,7 +23,7 @@
                 transform: rotate(initial);
             }
             100% {
-                transform: rotate(54deg); <!-- For co2 emissions from 0 to 1 kg, calculate using 18 * the decimal-->
+                transform: rotate(90deg); <!-- For co2 emissions from 0 to 1 kg, calculate using 18 * the decimal-->
             }
         }
         @keyframes rotate3 {
@@ -31,14 +31,8 @@
                 transform: rotate(initial);
             }
             100% {
-                transform: rotate(4.5deg); <!-- For co2 emissions from 1 to 40 kg, calculate using 4,5 * x ammount of whole kgs of co2-->
+                transform: rotate(0deg); <!-- For co2 emissions from 1 to 40 kg, calculate using 4,5 * x ammount of whole kgs of co2-->
             }
-        }
-        .circles li:nth-of-type(2) { 
-            background: var(--maincircle-bg-color); 
-        }
-        .circles li:nth-of-type(3) {
-            background: var(--circle-bg-color);
         }
     </style>
 </head>
@@ -50,11 +44,11 @@
         </div>
        
         <ul>
-            <li style="width: calc(5em * 1.2); height: calc(5em * 1.2);">Sill</li>
-            <li style="width: calc(5em * 1.4); height: calc(5em * 1.4);">Blåmusslor</li>
-            <li style="width: calc(5em * 1.6); height: calc(5em * 1.6);">Sej</li>
-            <li style="width: calc(5em * 1.8); height: calc(5em * 1.8);">Quorn</li>
-            <li style="width: calc(5em * 2.0); height: calc(5em * 2.0);">Lax</li>
+            <li style="width: calc(5em * 1.2); height: calc(5em * 1.2);">Potatis</li>
+            <li style="width: calc(5em * 1.4); height: calc(5em * 1.4);">Knäckebröd</li>
+            <li style="width: calc(5em * 1.6); height: calc(5em * 1.6);">Bröd</li>
+            <li style="width: calc(5em * 1.8); height: calc(5em * 1.8);">Spagetti</li>
+            <li style="width: calc(5em * 2.0); height: calc(5em * 2.0);">Jasminris</li>
         </ul>
     </div>
 
@@ -261,10 +255,10 @@
     <div class="info">
         <ul>
             <li>
-                <h1>Blåmusslor</h1>
+                <h1>Bröd</h1>
             </li>
             <li>
-                <h2>Norge</h2>
+                <h2>Sverige</h2>
             </li>
         </ul>
     </div>

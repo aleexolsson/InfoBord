@@ -15,7 +15,7 @@
                 transform: rotate(initial);
             }
             100% {
-                transform: rotate(50deg); <!-- This value is for the moment not correct, the value here is the ammount of kcal, correct values in degrees will be added-->
+                transform: rotate(118.4deg); <!-- Value is set in exakt kcal, to calculate degrees, use 0,2 * y ammount of kcal-->
             }
         }
         @keyframes rotate2 {
@@ -23,7 +23,7 @@
                 transform: rotate(initial);
             }
             100% {
-                transform: rotate(54deg);
+                transform: rotate(108deg); <!-- For co2 emissions from 0 to 1 kg, calculate using 18 * the decimal-->
             }
         }
         @keyframes rotate3 {
@@ -31,8 +31,14 @@
                 transform: rotate(initial);
             }
             100% {
-                transform: rotate(0deg);
+                transform: rotate(9deg); <!-- For co2 emissions from 1 to 40 kg, calculate using 4,5 * x ammount of whole kgs of co2-->
             }
+        }
+        .circles li:nth-of-type(5) { 
+            background: var(--maincircle-bg-color); 
+        }
+        .circles li:nth-of-type(3) {
+            background: var(--circle-bg-color);
         }
     </style>
 </head>
@@ -44,11 +50,11 @@
         </div>
        
         <ul>
-            <li style="width: calc(5em * 1.2); height: calc(5em * 1.2);">Äpple</li>
-            <li style="width: calc(5em * 1.4); height: calc(5em * 1.4);">Jordgubbar</li>
-            <li style="width: calc(5em * 1.6); height: calc(5em * 1.6);">Spenat</li>
-            <li style="width: calc(5em * 1.8); height: calc(5em * 1.8);">Banan</li>
-            <li style="width: calc(5em * 2.0); height: calc(5em * 2.0);">Papaya</li>
+            <li style="width: calc(5em * 1.2); height: calc(5em * 1.2);">Socker</li>
+            <li style="width: calc(5em * 1.4); height: calc(5em * 1.4);">Choklad</li>
+            <li style="width: calc(5em * 1.6); height: calc(5em * 1.6);">Margarin</li>
+            <li style="width: calc(5em * 1.8); height: calc(5em * 1.8);">Rapsolja</li>
+            <li style="width: calc(5em * 2.0); height: calc(5em * 2.0);">Sötmandel</li>
         </ul>
     </div>
 
@@ -255,10 +261,10 @@
     <div class="info">
         <ul>
             <li>
-                <h1>Spenat</h1>
+                <h1>Sötmandel</h1>
             </li>
             <li>
-                <h2>Sverige</h2>
+                <h2>USA</h2>
             </li>
         </ul>
     </div>
