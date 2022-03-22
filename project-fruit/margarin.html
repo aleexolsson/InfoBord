@@ -15,7 +15,7 @@
                 transform: rotate(initial);
             }
             100% {
-                transform: rotate(226deg); <!-- Value can't be set until all other sites are done, the scale is to be determined from the highest value in the list-->
+                transform: rotate(368deg); <!-- Value can't be set until all other sites are done, the scale is to be determined from the highest value in the list-->
             }
         }
         @keyframes rotate2 {
@@ -23,7 +23,7 @@
                 transform: rotate(initial);
             }
             100% {
-                transform: rotate(54deg); <!-- For co2 emissions from 0 to 1 kg, calculate using 18 * the decimal-->
+                transform: rotate(18deg); <!-- For co2 emissions from 0 to 1 kg, calculate using 18 * the decimal-->
             }
         }
         @keyframes rotate3 {
@@ -31,8 +31,14 @@
                 transform: rotate(initial);
             }
             100% {
-                transform: rotate(22.5deg); <!-- For co2 emissions from 1 to 40 kg, calculate using 4,5 * x ammount of whole kgs of co2-->
+                transform: rotate(4.5deg); <!-- For co2 emissions from 1 to 40 kg, calculate using 4,5 * x ammount of whole kgs of co2-->
             }
+        }
+        .circles li:nth-of-type(4) { 
+            background: var(--maincircle-bg-color); 
+        }
+        .circles li:nth-of-type(3) {
+            background: var(--circle-bg-color);
         }
     </style>
 </head>
@@ -44,11 +50,11 @@
         </div>
        
         <ul>
-            <li style="width: calc(5em * 1.2); height: calc(5em * 1.2);">Mjölk</li>
-            <li style="width: calc(5em * 1.4); height: calc(5em * 1.4);">Creme Fraiche</li>
-            <li style="width: calc(5em * 1.6); height: calc(5em * 1.6);">Grädde</li>
-            <li style="width: calc(5em * 1.8); height: calc(5em * 1.8);">Ost</li>
-            <li style="width: calc(5em * 2.0); height: calc(5em * 2.0);">Smör</li>
+            <li style="width: calc(5em * 1.2); height: calc(5em * 1.2);">Vetemjöl</li>
+            <li style="width: calc(5em * 1.4); height: calc(5em * 1.4);">Socker</li>
+            <li style="width: calc(5em * 1.6); height: calc(5em * 1.6);">Choklad</li>
+            <li style="width: calc(5em * 1.8); height: calc(5em * 1.8);">Margarin</li>
+            <li style="width: calc(5em * 2.0); height: calc(5em * 2.0);">Rapsolja</li>
         </ul>
     </div>
 
@@ -255,7 +261,7 @@
     <div class="info">
         <ul>
             <li>
-                <h1>Ost</h1>
+                <h1>Margarin</h1>
             </li>
             <li>
                 <h2>Sverige</h2>
