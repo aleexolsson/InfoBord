@@ -11,6 +11,7 @@
    sodipodi:docname="methanol.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -74,6 +75,37 @@
        id="path6025" />
     <g
        id="g986"
-       transform="matrix(-2.1880533,-0.68069899,-0.68069899,2.1880533,794.04046,-254.80402)" />
+       transform="matrix(-2.1880533,-0.68069899,-0.68069899,2.1880533,794.04046,-254.80402)"
+       style="fill:#64a900;fill-opacity:1">
+      <g
+         transform="matrix(0.16752893,0.05211791,-0.05211791,0.16752893,76.201028,272.74757)"
+         id="g4142"
+         style="fill:#64a900;fill-opacity:1">
+        <rect
+           width="100"
+           height="257.741"
+           x="181.50136"
+           y="-0.70613718"
+           transform="matrix(1,0,-0.7061362,0.7080761,0,0)"
+           style="fill:#64a900;fill-opacity:1;stroke-width:80;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4116" />
+        <use
+           transform="matrix(1,0,-2.660624e-8,-1,-4.5291225e-8,363.5)"
+           id="use4120"
+           x="0"
+           y="0"
+           width="434"
+           height="364"
+           xlink:href="#rect4116"
+           style="fill:#64a900;fill-opacity:1" />
+        <rect
+           width="367.69553"
+           height="100"
+           x="66.729935"
+           y="132"
+           style="fill:#64a900;fill-opacity:1;stroke-width:80;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4122" />
+      </g>
+    </g>
   </g>
 </svg>
