@@ -15,7 +15,7 @@
                 transform: rotate(initial);
             }
             100% {
-                transform: rotate(2.8deg); <!-- Value is set in exakt kcal, to calculate degrees, use 0,2 * y ammount of kcal-->
+                transform: rotate(12deg); <!-- Value is set in exakt kcal, to calculate degrees, use 0,2 * y ammount of kcal-->
             }
         }
         @keyframes rotate2 {
@@ -23,7 +23,7 @@
                 transform: rotate(initial);
             }
             100% {
-                transform: rotate(36deg); <!-- This value is correct for the right side, for the left side, double the value-->
+                transform: rotate(54deg); <!-- This value is correct for the right side, for the left side, double the value-->
             }
         }
         @keyframes rotate3 {
@@ -34,25 +34,19 @@
                 transform: rotate(0deg); <!-- This value is correct for the right side, for the left side, double the value-->
             }
         }
-        .circles li:nth-of-type(2) { 
-            background: var(--maincircle-bg-color); 
-        }
-        .circles li:nth-of-type(3) {
-            background: var(--circle-bg-color);
-        }
     </style>
 </head>
 
 <body>
     <div class="circles">
         <div class="text">
-            <h1>CO2 Avtryck<br></h1><h2>Jämförelse</h2>   
+            <h1>CO<under>2</under> Avtryck<br></h1><h2>Jämförelse</h2>   
         </div>
        
         <ul>
             <li style="width: calc(5em * 1.2); height: calc(5em * 1.2);">Gul lök</li>
             <li style="width: calc(5em * 1.4); height: calc(5em * 1.4);">Isbergssallad</li>
-            <li style="width: calc(5em * 1.6); height: calc(5em * 1.6);">Jordgubbar</li>
+            <li style="width: calc(5em * 1.6); height: calc(5em * 1.6);">Gröna ärtor</li>
             <li style="width: calc(5em * 1.8); height: calc(5em * 1.8);">Apelsin</li>
             <li style="width: calc(5em * 2.0); height: calc(5em * 2.0);">Banan</li>
         </ul>
@@ -261,7 +255,7 @@
     <div class="info">
         <ul>
             <li>
-                <h1>Isbergssallad</h1>
+                <h1>Gröna Ärtor</h1>
             </li>
             <li>
                 <h2>Sverige</h2>

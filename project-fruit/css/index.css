@@ -54,6 +54,9 @@ ul{
     opacity: 0;
     animation: fadein 3s forwards linear;
 }
+under {
+    font-size: 0.75em;
+}
 .graph ul li:nth-of-type(1){
     animation-delay: 6s;
     list-style-image: url(../resources/blixt.svg);
