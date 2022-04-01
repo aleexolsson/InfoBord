@@ -138,6 +138,7 @@ under {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .circles li:nth-of-type(1) {  
     animation-delay: 15s;
