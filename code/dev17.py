@@ -5,6 +5,7 @@ import time
 import sys
 import re
 import os
+import gpio as GPIO
 
 
 chrome_options = Options()
