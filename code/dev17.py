@@ -27,7 +27,6 @@ reader = RFIDReader(0xffff, 0x0035, 84, 16, should_reset=False)
 reader.initialize()
 
 
-
 textComp = 0
 web_list = os.listdir("/home/air/pi-rfid/web/webbsidor")
 #print(web_list)
