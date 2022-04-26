@@ -20,5 +20,3 @@
 👤 **klovaaxel, Alex Olsson & Kalle Söderberg**
 
 * Github: [@klovaaxel](https://github.com/klovaaxel) [@aleexolsson](https://github.com/aleexolsson) & [@BensinBosse](https://github.com/BensinBosse)
-* Twitter: [@alex_olsson](https://twitter.com/alex_olsson) & [@kallesooderberg](https://twitter.com/kallesooderberg)
-
