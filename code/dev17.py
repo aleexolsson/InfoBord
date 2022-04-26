@@ -5,7 +5,6 @@ import time
 import sys
 import re
 import os
-import gpio as GPIO
 
 
 chrome_options = Options()
@@ -18,7 +17,7 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 
 driver = webdriver.Chrome(chrome_options=chrome_options)
 #print("Hej")
-driver.get("file:///home/air/pi-rfid/web/webbsidor/2772569568.html")
+driver.get("file:///home/air/Documents/GitHub/info-table/project-air/index.html")
 
 
 class RFIDReader(reader.Reader):
@@ -28,8 +27,9 @@ reader = RFIDReader(0xffff, 0x0035, 84, 16, should_reset=False)
 reader.initialize()
 
 
+
 textComp = 0
-web_list = os.listdir("/home/air/pi-rfid/web/webbsidor")
+web_list = os.listdir("/home/air/Documents/GitHub/info-table/project-air")
 #print(web_list)
 
 def read():
