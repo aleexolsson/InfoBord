@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to InfoTable UF 👋</h1>
+<h1 align="center">InfoTable UF</h1>
 <p>
 </p>
 
@@ -10,11 +10,11 @@
 
 ```sh
 1. Create a fork of this project
-(Recomended) Make a dev branch on your fork (so thay you can recive uppstream changes on your main branch)
-Make your changes!
-Put all your changes into the correct branch
-Make a pull request!
-Wait for approval
+2. (Recomended) Make a dev branch on your fork (so thay you can recive uppstream changes on your main branch)
+3. Make your changes!
+4. Put all your changes into the correct branch
+5. Make a pull request!
+6. Wait for approval
 ```
 
 ## Authors
