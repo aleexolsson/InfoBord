@@ -17,15 +17,8 @@ Make a pull request!
 Wait for approval
 ```
 
-## Author
+## Authors
 
 👤 **Alex Olsson & Kalle Söderberg**
 
-* Github: [@aleexolsson & BensinBosse](https://github.com/aleexolsson & BensinBosse)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+* Github: [@aleexolsson](https://github.com/aleexolsson) & [@BensinBosse](https://github.com/BensinBosse)
