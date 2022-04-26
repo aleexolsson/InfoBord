@@ -5,7 +5,7 @@ import time
 import sys
 import re
 import os
-
+import gpio as GPIO
 
 chrome_options = Options()
 chrome_options.add_experimental_option("useAutomationExtension", False)
