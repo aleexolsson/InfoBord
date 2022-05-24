@@ -1,0 +1,12 @@
+[Unit]
+Description=prestartupbrowser
+After=graphical.target
+
+[Service]
+User=root
+WorkingDirctory=/root/
+Environment=DISPLAY=:0
+ExecStart=chmod -R 777 /dev/bus/usb
+
+[Install]
+WantedBy=graphical.target

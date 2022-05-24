@@ -1,0 +1,14 @@
+[Unit]
+Description=startupbrowser
+After=graphical.target
+
+[Service]
+User=air
+WorkingDirectory=/home/air/GitHub/info-table
+Environment=DISPLAY=:0
+ExecStartPre=/bin/sleep 30
+ExecStart=sh /home/air/Documents/GitHub/info-table/code/launcher.sh
+Restart=on-failure
+
+[Install]
+WantedBy=graphical.target
