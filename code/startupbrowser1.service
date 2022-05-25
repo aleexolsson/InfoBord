@@ -1,3 +1,5 @@
+"First, make sure username and working directory is correct, after that, run (sudo mv path_to_this_file /etc/systemd/system/startbrowser1.service)"
+
 [Unit]
 Description=startupbrowser
 After=graphical.target
@@ -8,7 +10,6 @@ WorkingDirectory=/home/air/GitHub/info-table
 Environment=DISPLAY=:0
 ExecStartPre=/bin/sleep 30
 ExecStart=sh /home/air/Documents/GitHub/info-table/code/launcher.sh
-Restart=on-failure
 
 [Install]
 WantedBy=graphical.target
