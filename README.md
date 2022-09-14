@@ -8,12 +8,13 @@
 
 ## Installation
 
-1. Move startupbrowser.service and startupscript.service
-Move startupbrowser.service and startupscript.service to "/etc/systemd/system/" using sudo mv path-to-file /etc/systemd/system/startupxxxxxx.service
+1. Move startupbrowser.service and startupscript.service\
+Move startupbrowser.service and startupscript.service to "/etc/systemd/system/" using:\
+> sudo mv path-to-file /etc/systemd/system/startupxxxxxx.service
 
 2. Enable service with:\
-'sudo systemctl enable startupbrowser.service'\
-'sudo systemctl enable startupscript.service'
+> sudo systemctl enable startupbrowser.service\
+> sudo systemctl enable startupscript.service
 
 ## Usage
 
