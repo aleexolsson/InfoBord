@@ -1,4 +1,4 @@
 cd /
-cd /home/air/Documents/GitHub/info-table/code/
+cd /home/infobord/Documents/GitHub/info-table/code/
 python3 run.py
-cd /home/air/
+cd /home/infobord/

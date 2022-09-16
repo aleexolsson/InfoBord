@@ -17,7 +17,7 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 
 driver = webdriver.Chrome(chrome_options=chrome_options)
 #print("Hej")
-driver.get("file:///home/air/Documents/GitHub/info-table/project-air/index.html")
+driver.get("file:///home/infobord/Documents/GitHub/info-table/project-fruit/index.html")
 
 
 class RFIDReader(reader.Reader):
@@ -29,7 +29,7 @@ reader.initialize()
 
 
 textComp = 0
-web_list = os.listdir("/home/air/Documents/GitHub/info-table/project-air")
+web_list = os.listdir("/home/infobord/Documents/GitHub/info-table/project-fruit")
 #print(web_list)
 
 def read():
@@ -43,10 +43,10 @@ def read():
             textComp = id
                 
             if id + ".html"in web_list:
-                driver.get("file:///home/air/pi-rfid/web/webbsidor/" + id + ".html")
+                driver.get("file:///home/infobord/Documents/GitHub/info-table/project-fruit/" + id + ".html")
                     
             else:
-                driver.get("file:///home/air/pi-rfid/web/webbsidor/2772569568.html")
+                driver.get("file:///home/infobord/Documents/GitHub/info-table/project-fruit/index.html")
                 
                 #print(id)
             #time.sleep(0.5)
