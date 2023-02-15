@@ -1,10 +1,10 @@
-<h1 align="center">InfoTable UF</h1>
+<h1 align="center">InfoBord UF</h1>
 <p>
 </p>
 
-> Software for InfoTable UF's products
+> Software for InfoBord UF's products
 
-### 🏠 [Homepage](https://infobord.se)
+### 🏠 [Homepage](https://github.com/aleexolsson/InfoBord)
 
 ## Installation
 
