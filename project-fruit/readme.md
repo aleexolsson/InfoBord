@@ -6,8 +6,7 @@ Frontend Software for InfoBord UF's system to display and compare CO2 footprint.
 ## Installation/Updating
 
 1. Do a git pull or download the repository maually.
-2. Place the contents of this folder (the one containg this readme.md file) inside the diserd folder in your display system (the www folder in InfoBord UFs case).
-3. Go into the css folder.
-4. Remove the css document that should not be used, the right or left one. (the left one should be removed on the right screen and vice versa).
-5. Use template to make more pages
-6. Name page so that they corespond with NFC tag for backend to be able to find them. 
+2. Go into the css folder.
+3. Remove the css document that should not be used, the right or left one. (the left one should be removed on the right screen and vice versa).
+4. Use template to make more pages
+5. Name page so that they corespond with NFC tag for backend to be able to find them. 
