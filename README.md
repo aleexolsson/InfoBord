@@ -6,6 +6,8 @@
 
 ### 🏠 [Homepage](https://github.com/aleexolsson/InfoBord)
 
+[![HitCount](https://hits.dwyl.com/aleexolsson/InfoBord.svg?style=flat-square)](http://hits.dwyl.com/aleexolsson/InfoBord)
+
 ## Installation
 
 1. Move startupbrowser.service and startupscript.service\
